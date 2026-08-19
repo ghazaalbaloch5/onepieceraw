@@ -1,4 +1,4 @@
 User-agent: *
 Allow: /
 
-Sitemap: https://readnewmangaraw.github.io/kingdoraw/sitemap.xml
+Sitemap: https://readnewmangaraw.github.io/onepieceraw/sitemap.xml

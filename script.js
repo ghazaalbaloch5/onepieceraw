@@ -180,8 +180,8 @@ function renderChapters(){
 
         <a
           class="chapter-card"
-          href="/kingdoraw/${encodeURIComponent(post.slug)}"
-          onclick="event.preventDefault(); history.pushState({}, '', '/kingdoraw/' + encodeURIComponent('${post.slug}')); handleRoute();"
+          href="/onepieceraw/${encodeURIComponent(post.slug)}"
+          onclick="event.preventDefault(); history.pushState({}, '', '/onepieceraw/' + encodeURIComponent('${post.slug}')); handleRoute();"
         >
 
           <div class="card-image">
@@ -239,7 +239,7 @@ ROUTING
 ==============================
 */
 
-const basePath = "/kingdoraw/";
+const basePath = "/onepieceraw/";
 
 function getSlugFromPath(){
 
@@ -610,7 +610,7 @@ function renderReader(post){
         history.pushState(
           {},
           "",
-          "/kingdoraw/" +
+          "/onepieceraw/" +
           encodeURIComponent(older.slug)
         );
 
@@ -629,7 +629,7 @@ function renderReader(post){
         history.pushState(
           {},
           "",
-          "/kingdoraw/" +
+          "/onepieceraw/" +
           encodeURIComponent(newer.slug)
         );
 
@@ -661,7 +661,7 @@ backButton.addEventListener(
     history.pushState(
       {},
       "",
-      "/kingdoraw/"
+      "/onepieceraw/"
     );
 
     handleRoute();
